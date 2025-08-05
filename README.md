@@ -1,7 +1,8 @@
 # 📝 Vynspire Blog
 
 A full stack blog application built with Django (backend) and React (frontend).
-Supports authentication, post creation/editing, pagination, and more.
+Supports authentication,authorization, post creation/editing, pagination, and more.
+This is a part of technical assessment from Vynspire AI Labs. 
 
 ---
 
