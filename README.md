@@ -68,8 +68,8 @@ VITE_API_URL=http://localhost:8000
 - Create, update, delete blog posts
 - Edit/delete only your own posts
 - View all public posts
-- Pagination, loading shimmer, toast notifications
-- Persistent login (auto-refresh token)
+- Pagination and toast notifications
+- Persistent login 
 
 ---
 
