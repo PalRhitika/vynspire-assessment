@@ -8,9 +8,9 @@ This is a part of technical assessment from Vynspire AI Labs.
 
 ## 🚀 Tech Stack
 
-- **Backend**: Django (custom user model, JWT auth, SQLite)
+- **Backend**: Django (custom user model, JWT auth(pyjwt), SQLite, without DRF)
 - **Frontend**: React (Vite, Zustand, Tailwind CSS)
-- **Auth**: JWT (Access + Refresh tokens with auto-refresh)
+- **Auth**: JWT (Access + Refresh tokens)
 
 ---
 
