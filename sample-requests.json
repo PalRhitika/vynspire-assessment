@@ -1,0 +1,50 @@
+{
+  "login": {
+    "method": "POST",
+    "url": "/login/",
+    "body": {
+      "username": "testuser",
+      "password": "Test@1234"
+    }
+  },
+  "register": {
+    "method": "POST",
+    "url": "/register/",
+    "body": {
+      "username": "newuser",
+      "password": "NewUser@123",
+      "first_name": "John",
+      "last_name": "Doe"
+    }
+  },
+  "create_post": {
+    "method": "POST",
+    "url": "/posts/",
+    "headers": {
+      "Authorization": "Bearer <ACCESS_TOKEN>"
+    },
+    "body": {
+      "title": "My First Blog",
+      "content": "This is an awesome post."
+    }
+  },
+  "update_post": {
+    "method": "PUT",
+    "url": "/posts/<POST_ID>/",
+    "headers": {
+      "Authorization": "Bearer <ACCESS_TOKEN>"
+    },
+    "body": {
+      "title": "Updated Blog Title",
+      "content": "Updated blog content."
+    }
+  },
+  "delete_post": {
+    "method": "DELETE",
+    "url": "/posts/<POST_ID>/",
+    "headers": {
+      "Authorization": "Bearer <ACCESS_TOKEN>"
+    }
+  }
+
+}
