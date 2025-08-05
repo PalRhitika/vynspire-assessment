@@ -79,6 +79,4 @@ VITE_API_URL=http://localhost:8000
 
 ---
 
-## 🛡️ License
 
-MIT — use freely for personal or portfolio use.
