@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.sqlite3
+env/
+venv/
+*.log
+
+# --- Django ---
+*.env
+*.DS_Store
+*.pot
+*.pyc
+db.sqlite3
+/static/
+media/
+
+# Ignore Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+
+# --- Node / React ---
+node_modules/
+dist/
+build/
+frontend/.env
+
+# --- VSCode / System ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Vite ---
+frontend/.vite/
