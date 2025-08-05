@@ -17,8 +17,8 @@ Supports authentication, post creation/editing, pagination, and more.
 
 ```
 vynspire-blog/
-├── backend/         # Django project
-├── frontend/        # React project (Vite)
+├── blog-backend/         # Django project
+├── blog-frontend/        # React project (Vite)
 └── README.md
 ```
 
