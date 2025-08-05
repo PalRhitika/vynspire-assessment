@@ -57,7 +57,7 @@ Make sure to create a `.env` file inside `frontend/`:
 ```
 VITE_API_URL=http://localhost:8000
 ```
-
+**Also Make sure to run both server (frontend and backend) to make this application fully functional**
 ---
 
 ## 🧪 Features
